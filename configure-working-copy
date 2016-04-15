@@ -1,0 +1,7 @@
+#!/bin/sh
+cp ./gitinfo2-hook.txt ./.git/hooks/post-checkout
+chmod +x ./.git/hooks/post-checkout
+cp ./gitinfo2-hook.txt ./.git/hooks/post-commit
+chmod +x ./.git/hooks/post-commit
+cp ./gitinfo2-hook.txt ./.git/hooks/post-merge
+chmod +x ./.git/hooks/post-merge
